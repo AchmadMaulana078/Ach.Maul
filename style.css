@@ -12,6 +12,31 @@ body {
   padding: 2rem;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #6c5ce7;
+  font-weight: 600;
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #dfe6e9;
+}
+
+nav a.active {
+  background-color: #6c5ce7;
+  color: white;
+}
+
 header {
   text-align: center;
   padding: 2rem 0;
